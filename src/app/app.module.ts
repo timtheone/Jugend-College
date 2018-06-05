@@ -9,6 +9,7 @@ import { CarouselComponent } from './components/carousel/carousel.component';
 import { WhyusComponent } from './components/whyus/whyus.component';
 import { CoursesComponent } from './components/courses/courses.component';
 import { HomePageComponent } from './components/home-page/home-page.component';
+import { SuccesspageComponent } from './components/successpage/successpage.component';
 
 
 const appRoutes: Routes = [
@@ -17,6 +18,9 @@ const appRoutes: Routes = [
   },
   {
     path: '', component: HomePageComponent
+  },
+  {
+    path: 'successpage', component: SuccesspageComponent
   }
   ];
 
@@ -28,7 +32,8 @@ const appRoutes: Routes = [
     CarouselComponent,
     WhyusComponent,
     CoursesComponent,
-    HomePageComponent
+    HomePageComponent,
+    SuccesspageComponent
   ],
   imports: [
     BrowserModule,
