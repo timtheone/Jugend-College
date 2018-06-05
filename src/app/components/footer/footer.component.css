@@ -1,17 +1,17 @@
 .footer{
-	
-	background-color: #2980B9;
+	margin-top: 100px;
+	background-color: rgb(99, 99, 99)
 }
 .mid{
 	text-align: center;
 }
 p{
-	color: #D0ECE7;
+	color: white;
 }
 h1{
-	color: #EBF5FB;
+	color: white;
 }
 a{
 	direction: none;
-	color: #D0ECE7;
+	color: white;
 }

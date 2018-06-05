@@ -67,7 +67,7 @@
 /* Call to Action
 --------------------------------*/
 #call-to-action {
-  background: #081e5b;
+  background: #2B95FF;
   background-size: cover;
   padding: 40px 0;
 }
@@ -105,6 +105,7 @@
 
 #call-to-action .cta-btn:hover {
   background: #50d8af;
+  text-decoration: none;
   border: 3px solid #50d8af;
 }
 
