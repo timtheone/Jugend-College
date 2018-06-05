@@ -27,10 +27,10 @@ const appRoutes: Routes = [
     path: '', component: HomePageComponent
   },
   {
-    path: 'about', component: AboutComponent
-
     path: 'contact', component: FormComponent
-
+  },
+  {
+    path: 'about', component: AboutComponent
   }
   ];
 
