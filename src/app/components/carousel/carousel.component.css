@@ -1,0 +1,16 @@
+h5, p {
+	color: white;
+
+}
+
+h5 {
+	font-size: 2em;
+}
+
+p {
+	font-size: 1.6em;
+}
+
+img {
+	filter:brightness(0.8);
+}
