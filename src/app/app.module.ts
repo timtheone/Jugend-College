@@ -12,7 +12,11 @@ import { CarouselComponent } from './components/carousel/carousel.component';
 import { WhyusComponent } from './components/whyus/whyus.component';
 import { CoursesComponent } from './components/courses/courses.component';
 import { HomePageComponent } from './components/home-page/home-page.component';
+
 import { AboutComponent } from './components/about/about.component';
+
+import {FormComponent} from './components/form/form.component';
+
 
 
 const appRoutes: Routes = [
@@ -24,6 +28,9 @@ const appRoutes: Routes = [
   },
   {
     path: 'about', component: AboutComponent
+
+    path: 'contact', component: FormComponent
+
   }
   ];
 
@@ -37,7 +44,11 @@ const appRoutes: Routes = [
     WhyusComponent,
     CoursesComponent,
     HomePageComponent,
+
     AboutComponent
+
+    FormComponent
+
   ],
   imports: [
     BrowserModule,
