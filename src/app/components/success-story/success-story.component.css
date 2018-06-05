@@ -2,6 +2,9 @@
     padding: 12px 0px 0px 33%;
     margin: 0px;
 }
+h2 {
+    color: #555555;
+}
 
 .img-circle {
     border-radius: 50%;
