@@ -1,6 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import { AngularFireModule } from "angularfire2";
+import { AngularFirestoreModule } from "angularfire2/firestore";
+import { environment } from '../environments/environment';
 import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { SuccessStoryComponent } from './components/success-story/success-story.component';
@@ -9,7 +12,8 @@ import { CarouselComponent } from './components/carousel/carousel.component';
 import { WhyusComponent } from './components/whyus/whyus.component';
 import { CoursesComponent } from './components/courses/courses.component';
 import { HomePageComponent } from './components/home-page/home-page.component';
-
+import { CoursesService } from './services/courses.service';
+import { FormsModule } from '@angular/forms';
 
 const appRoutes: Routes = [
   {
@@ -32,9 +36,12 @@ const appRoutes: Routes = [
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes),
+    AngularFireModule.initializeApp(environment, 'jugend-college'),
+    AngularFirestoreModule,
+    FormsModule
   ],
-  providers: [],
+  providers: [CoursesService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
