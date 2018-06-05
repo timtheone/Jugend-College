@@ -3,6 +3,9 @@ import { NgModule } from '@angular/core';
 
 import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
+
+import { NavbarComponent } from './components/navbar/navbar.component';
+
 import { SuccessStoryComponent } from './components/success-story/success-story.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
@@ -23,6 +26,7 @@ const appRoutes: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
+    NavbarComponent,
     SuccessStoryComponent,
     FooterComponent,
     CarouselComponent,
