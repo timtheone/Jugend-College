@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { WhyusComponent } from './components/whyus/whyus.component';
 
 @Component({
   selector: 'app-root',
