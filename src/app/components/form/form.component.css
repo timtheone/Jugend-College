@@ -328,4 +328,11 @@ img {
 }
 
 
-
+#form-container {
+  padding-bottom: 300px;
+}
+@media screen and (max-width: 992px) {
+  #form-container {
+      padding-bottom: 600px;
+  }
+}

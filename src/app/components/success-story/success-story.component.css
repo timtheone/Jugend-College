@@ -50,6 +50,7 @@ section .section-title {
     transform: rotateY(180deg);
 }
 
+
 .mainflip {
     -webkit-transition: 1s;
     -webkit-transform-style: preserve-3d;
@@ -62,6 +63,7 @@ section .section-title {
     transform-style: preserve-3d;
     position: relative;
 
+
 }
 
 .frontside {
@@ -72,6 +74,7 @@ section .section-title {
     margin-bottom: 30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
 }
+
 
 .backside {
     position: absolute;
@@ -105,7 +108,9 @@ section .section-title {
     -ms-transform-style: preserve-3d;
     transition: 1s;
     transform-style: preserve-3d;
-}
+
+
+ 
 
 .frontside .card,
 .backside .card {
