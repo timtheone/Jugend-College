@@ -594,12 +594,27 @@ img {
   border: 3px solid #50d8af;
 }
 
-.carousel-control-prev-icon .carousel-control-next-icon {
-  background-color: #50d8af;
-}
-
+.carousel-control-prev-icon,
 .carousel-control-next-icon {
-  background-color: #50d8af;
+  height: 80px;
+  width: 80px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid #50d8af;
+  background-image: none;
 }
 
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 50px;
+  color: #50d8af;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 50px;
+  color: #50d8af;
+}
 
