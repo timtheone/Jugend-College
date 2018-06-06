@@ -1,3 +1,7 @@
 .container{
 	margin-top: 80px;
+
+}
+.hero-image{
+	background-image: url("../../../assets/img/about.jpg");
 }
