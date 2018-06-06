@@ -18,6 +18,7 @@ import { CoursesService } from './services/courses.service';
 import { FormsModule } from '@angular/forms';
 import { AboutComponent } from './components/about/about.component';
 import {FormComponent} from './components/form/form.component';
+import { SuccesspageComponent } from './components/successpage/successpage.component';
 
 const appRoutes: Routes = [
   {
@@ -31,6 +32,9 @@ const appRoutes: Routes = [
   },
   {
     path: 'about', component: AboutComponent
+  },
+  {
+    path: 'successpage', component: SuccesspageComponent
   }
   ];
 
@@ -45,7 +49,8 @@ const appRoutes: Routes = [
     CoursesComponent,
     HomePageComponent,
     AboutComponent,
-    FormComponent
+    FormComponent,
+    SuccesspageComponent
   ],
   imports: [
     BrowserModule,
