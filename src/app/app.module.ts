@@ -60,6 +60,7 @@ const appRoutes: Routes = [
     FormsModule
   ],
   providers: [CoursesService],
+  
   bootstrap: [AppComponent]
 })
 export class AppModule { }
