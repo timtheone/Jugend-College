@@ -1,4 +1,14 @@
+.jumbotron{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('../../../assets/img/People_2_web.jpeg');
+  background-size: cover;
+  color: white;
+  padding: 240px 0 200px 0;
+  margin-bottom: 0px;
+}
 
+.lead{
+  text-align: center;
+}
 html{
 -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -484,54 +494,6 @@ img {
   height: auto;
 }
 
-/* Parallax */
-
-.parallax-board {
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  max-width: 1920px;
-  position: relative;
-  margin: 0 auto;
-}
-
-#parallax-bg-2 {
-  background-color: #555555;
-  background-position: 100% 0;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  height: 300px;
-  position: relative;
-}
-
-#parallax-bg-2 .quote {
-  padding: 0;
-  width: 100%;
-  margin: 0 auto;
-  color: #FFF;
-  text-align: center;
-  left: 0%;
-  margin: -30px 0 0 0px;
-  position: absolute;
-  top: 30%;
-  font-weight: 200;
-  text-transform: none;
-  font-size: 35px;
-}
-@media (max-width: 768px) {
-  #parallax-bg-2 .quote {
-    font-size: 24px;
-  }
-}
-#parallax-bg-2 .author {
-  font-size: 24px;
-  font-weight: 300;
-}
-@media (max-width: 768px) {
-  #parallax-bg-2 .author {
-    font-size: 14px;
-  }
-}
 
 #successstorieheader{
   text-align: center;

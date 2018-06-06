@@ -56,6 +56,10 @@
   padding-bottom: 40px;
 }
 
+.section-header {
+  text-align: center;
+  margin-bottom: 3em;
+}
 
 #headerabout{
   text-align: center;
