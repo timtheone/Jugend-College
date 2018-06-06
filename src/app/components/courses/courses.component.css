@@ -2,3 +2,23 @@
     margin-bottom: 40px;
     margin-top: 80px;
 }
+
+#course-container {
+    padding-bottom: 300px;
+}
+
+@media screen and (max-width: 992px) {
+    #course-container {
+        padding-bottom: 600px;
+    }
+}
+
+#imgcontainer {
+    padding: 0;
+  }
+  
+  img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }

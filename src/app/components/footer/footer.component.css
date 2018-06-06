@@ -1,6 +1,9 @@
 footer {
     margin-top: 100px;
     background-color: #555555;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 .mid {
@@ -22,4 +25,8 @@ a {
 
 .row {
     width: 100%;
+}
+
+#footerid{
+    padding-top: 15px;
 }

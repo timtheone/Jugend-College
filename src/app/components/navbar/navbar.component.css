@@ -1,0 +1,15 @@
+.white {
+    background-color: white
+}
+
+.apply-button {
+    background-color: #6DEDCD;
+    color: white!important;
+    border-radius: 5px;
+}
+
+.apply-button:hover {
+    background-color: white;
+    color: #6DEDCD!important;
+    transition-duration: 0.3s;
+}

@@ -1,7 +1,10 @@
-.container{
+#about-container {
 	margin-top: 80px;
-
+	padding-bottom: 300px;
 }
-.hero-image{
-	background-image: url("../../../assets/img/about.jpg");
+
+@media screen and (max-width: 992px) {
+    #about-container {
+        padding-bottom: 600px;
+    }
 }
