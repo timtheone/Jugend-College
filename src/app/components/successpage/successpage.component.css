@@ -548,7 +548,13 @@ img {
 #call-to-action {
   background: #2B95FF;
   background-size: cover;
-  padding: 40px 0;
+  padding: 40px 0 300px 0;
+}
+
+@media screen and (max-width: 992px) {
+    #call-to-action {
+        padding-bottom: 600px;
+    }
 }
 
 #call-to-action .cta-title {
