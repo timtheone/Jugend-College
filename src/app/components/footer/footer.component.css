@@ -1,18 +1,27 @@
+
 .footer{
 	width: 100%;
 	margin-top: 100px;
 	background-color: rgb(99, 99, 99)
 }
-.mid{
-	text-align: center;
+
+.mid {
+    text-align: center;
 }
-p{
-	color: white;
+
+p {
+    color: white;
 }
-h3{
-	color: white;
+
+h3 {
+    color: white;
 }
-a{
-	direction: none;
-	color: white;
+
+a {
+    direction: none;
+    color: white;
+}
+
+.row {
+    width: 100%;
 }

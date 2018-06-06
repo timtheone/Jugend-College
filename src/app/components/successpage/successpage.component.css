@@ -419,14 +419,14 @@ CIRCLE GRID
 #circle-grid .col-lg-4 .col-lg-11 {
   padding: 0;
 }
-.jerro-circle {
+.test-circle {
   position: relative;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-.jerro-circle .front-content,
-.jerro-circle .back-content {
+.test-circle .front-content,
+.test-circle .back-content {
   position: absolute;
   top: 0;
   left: 0;
@@ -434,100 +434,100 @@ CIRCLE GRID
   height: inherit;
   border-radius: 50%;
 }
-.jerro-circle .front-content p,
-.jerro-circle .back-content p {
+.test-circle .front-content p,
+.test-circle .back-content p {
   display: inline-block;
   vertical-align: middle;
   margin: 0;
 }
-.jerro-circle .front-content:before,
-.jerro-circle .back-content:before {
+.test-circle .front-content:before,
+.test-circle .back-content:before {
   display: inline-block;
   vertical-align: middle;
   content: " ";
   height: 100%;
 }
-.jerro-circle .front-content.color,
-.jerro-circle .back-content.color {
+.test-circle .front-content.color,
+.test-circle .back-content.color {
   background: #aeca2e;
   color: #ffffff;
 }
-.jerro-circle .front-content.gray-darker,
-.jerro-circle .back-content.gray-darker {
+.test-circle .front-content.gray-darker,
+.test-circle .back-content.gray-darker {
   background: #222222;
   color: #ffffff;
 }
-.jerro-circle .front-content.gray-dark,
-.jerro-circle .back-content.gray-dark {
+.test-circle .front-content.gray-dark,
+.test-circle .back-content.gray-dark {
   background: #333333;
   color: #ffffff;
 }
-.jerro-circle .front-content.gray,
-.jerro-circle .back-content.gray {
+.test-circle .front-content.gray,
+.test-circle .back-content.gray {
   background: #4d4d4d;
   color: #ffffff;
 }
-.jerro-circle .front-content.gray-light,
-.jerro-circle .back-content.gray-light {
+.test-circle .front-content.gray-light,
+.test-circle .back-content.gray-light {
   background: #999999;
   color: #474747;
 }
-.jerro-circle .front-content.gray-lighter,
-.jerro-circle .back-content.gray-lighter {
+.test-circle .front-content.gray-lighter,
+.test-circle .back-content.gray-lighter {
   background: #eeeeee;
   color: #474747;
 }
-.jerro-circle .back-content {
+.test-circle .back-content {
   scale: 0;
 }
-.jerro-circle .image {
+.test-circle .image {
   border-radius: 50%;
 }
-.jerro-circle .image img {
+.test-circle .image img {
   border-radius: 50%;
 }
 @media (max-width: 1200px) {
-  .jerro-circle .image img {
+  .test-circle .image img {
     width: 120px;
     height: 120px;
   }
 }
-.jerro-circle.small {
+.test-circle.small {
   width: 170px;
   height: 170px;
 }
-.jerro-circle.small p {
+.test-circle.small p {
   font-size: 18px;
 }
 @media (max-width: 1200px) {
-  .jerro-circle.small p {
+  .test-circle.small p {
     font-size: 16px;
   }
 }
 @media (max-width: 1200px) {
-  .jerro-circle.small {
+  .test-circle.small {
     width: 120px;
     height: 120px;
   }
 }
-.jerro-circle.big {
+.test-circle.big {
   width: 370px;
   height: 370px;
 }
-.jerro-circle.big p {
+.test-circle.big p {
   font-size: 42px;
 }
 @media (max-width: 1200px) {
-  .jerro-circle.big p {
+  .test-circle.big p {
     font-size: 20px;
   }
 }
 @media (max-width: 1200px) {
-  .jerro-circle.big {
+  .test-circle.big {
     width: 280px;
     height: 280px;
   }
-  .jerro-circle.big img {
+  .test-circle.big img {
     width: 280px;
     height: 280px;
   }
