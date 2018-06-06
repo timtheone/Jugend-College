@@ -26,3 +26,7 @@ a {
 .row {
     width: 100%;
 }
+
+#footerid{
+    padding-top: 15px;
+}
