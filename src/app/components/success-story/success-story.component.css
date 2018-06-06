@@ -85,6 +85,10 @@ h2 {
         margin-left: -15px;
         margin-top: 0px!important;
     }
+
+    #success-wrapper {
+        padding-bottom: 600px;
+    }
  }
  
 
