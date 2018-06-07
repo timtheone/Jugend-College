@@ -14,3 +14,13 @@ p {
 img {
 	filter:brightness(0.8);
 }
+
+@media screen and (max-width: 778px) {
+    #carouselExampleControls {
+		margin-top: 74px!important;
+		font-size: 12px;
+	}
+	.carousel-caption {
+		bottom: -10px;
+	}
+}
