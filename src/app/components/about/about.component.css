@@ -3,6 +3,10 @@
 	padding-bottom: 300px;
 }
 
+.img-fluid {
+    margin-top: 74px;
+}
+
 @media screen and (max-width: 992px) {
     #about-container {
         padding-bottom: 600px;
