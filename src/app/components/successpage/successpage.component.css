@@ -1,6 +1,7 @@
 .jumbotron{
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('../../../assets/img/headersuccess2.jpg');
   background-size: cover;
+  position: relative;
   color: white;
   padding: 120px 0 250px 0;
   margin-bottom: 0px;
@@ -602,12 +603,12 @@ img {
 
     .selector {
         position: absolute;
-        left: 50%;
-        top: 50%;
+        left: calc(50% - 71px);
+        top: 61%;
         width: 140px;
         height: 140px;
-        margin-top: -620px;
-        margin-left: -70px;
+        /* margin-top: -620px; */
+        /* margin-left: -70px; */
     }
 
   
@@ -617,18 +618,24 @@ img {
         width: 100%;
         height: 100%;
         padding: 10px;
-        background: #178DFF;
+        background-color: Transparent;
+        background-repeat:  no-repeat;
         border-radius: 50%;
-        border: 0;
+        border: 1px solid #00E2B1;
         color: white;
         font-size: 20px;
         cursor: pointer;
+        overflow: hidden;
+        outline: none;
         box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
         transition: all .1s;
     }
 
+
+
+
     .selector button:hover {
-        background: #3071a9;
+        background: #00E2B1;
     }
 
     .selector button:focus {
@@ -661,6 +668,7 @@ img {
 
     .selector li input+label {
         position: absolute;
+        color: black;
         left: 50%;
         bottom: 100%;
         width: 0;
@@ -690,4 +698,21 @@ img {
         box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
         font-size: 15px;
     }
+
+
+
+
+@media screen and (max-width: 743px) {
+  .selector {
+  /*margin-top: -769px;*/
+  transform: scale(0.7,0.7);
+  }
+
+}  
+
+
+
+  
+
+    
 
