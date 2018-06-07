@@ -6,6 +6,7 @@
     background-color: #6DEDCD;
     color: white!important;
     border-radius: 5px;
+    -webkit-transition: 0.3s;
 }
 
 .apply-button:hover {
