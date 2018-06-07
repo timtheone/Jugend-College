@@ -9,12 +9,4 @@ import { WhyusComponent } from './components/whyus/whyus.component';
 })
 export class AppComponent {
   title = 'app';
-
-  ngAfterViewChecked() {
-    window.scrollTo({
-    top: 0, 
-    left: 0, 
-    behavior: 'smooth' 
-    });
-  }
 }
